@@ -1,4 +1,4 @@
-const eventTime = new Date("2026-12-04T18:30:00+08:00").getTime();
+const eventTime = new Date("2026-12-04T18:00:00+08:00").getTime();
 const envelope = document.getElementById("envelope");
 const openPrompt = document.getElementById("openPrompt");
 const modal = document.getElementById("videoModal");
