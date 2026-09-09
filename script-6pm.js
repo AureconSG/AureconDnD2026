@@ -28,7 +28,7 @@ function updateCountdown() {
   };
 
   Object.entries(values).forEach(([unit, value]) => setCountdownUnit(unit, value));
-  const label = `${values.days} days, ${values.hours} hours, ${values.minutes} minutes and ${values.seconds} seconds until registration opens at 6:00 PM Singapore time`;
+  const label = `${values.days} days, ${values.hours} hours, ${values.minutes} minutes and ${values.seconds} seconds until registration at 6PM Singapore time`;
   document.querySelectorAll("[data-countdown]").forEach((element) => {
     element.setAttribute("aria-label", label);
   });
